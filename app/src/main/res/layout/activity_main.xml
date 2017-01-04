@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.caishifu.myrecyclerview.MainActivity">
+
+    <com.caishifu.myrecyclerview.view.MyRecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:background="#f945"
+            android:id="@id/id_scroll_top"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:text="头部"
+            android:gravity="center"
+            />
+        <android.support.v7.widget.RecyclerView
+            android:id="@id/id_scroll_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </com.caishifu.myrecyclerview.view.MyRecyclerView>
+</RelativeLayout>
