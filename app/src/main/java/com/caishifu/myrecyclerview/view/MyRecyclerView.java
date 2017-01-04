@@ -20,7 +20,7 @@ import com.caishifu.myrecyclerview.R;
 
 public class MyRecyclerView extends RelativeLayout {
     /**
-     * 滑动需要
+     * 滑动需要辅助工具
      */
     private Scroller mScroller ;
 
